@@ -4,7 +4,8 @@ const closeBtn = document.querySelector(".close");
 
 hamburgerBtn.addEventListener("click", function () {
   hamburgerMenu.classList.add("active");
-  closeBtn.addEventListener("click", function () {
-    hamburgerMenu.classList.remove("active");
-  });
+});
+
+closeBtn.addEventListener("click", function () {
+  hamburgerMenu.classList.remove("active");
 });
